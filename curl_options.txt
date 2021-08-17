@@ -1,0 +1,6 @@
+cURL options are a way to get or pass information/data to/from servers (http, ftp, sftp, ldap)
+-F = used to send data using form data content type
+-d = curl sends the data using the application/x-www-form-urlencoded content type.
+--anyauth = curl figures out authentication method by itself and use the most secure method the remote site supports.
+--data-urlencode <data>	= posts data similar to the other data options with the exception that this performs URL-encoding
+--environment	= sets a range of envirnment variables
